@@ -1,0 +1,21 @@
+{
+  "name": "linter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "linter.js",
+  "dependencies": {
+    "eslint-cli": "^1.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint  . --ext .js  --ignore-pattern node_modules/ || exit 0"
+
+  },
+  "author": "",
+  "license": "ISC"
+}
